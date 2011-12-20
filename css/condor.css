@@ -1,0 +1,10 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#condor {
+	margin: 0 auto;
+	background: #f1f1f1;
+}
