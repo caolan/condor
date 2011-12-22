@@ -4,7 +4,31 @@ body, html {
 	text-align: center;
 }
 
-#condor {
+article {
+	position: relative;
 	margin: 0 auto;
+}
+
+#condor {
 	background: #f1f1f1;
+}
+
+@media(max-width:1024px) {
+
+	.joystick {
+		width: 100px;
+		height: 100px;
+		position: absolute;
+		bottom: 20px;
+		background: rgba(0,0,0,0.05);
+		border-radius: 50px;
+	}
+
+	.joystick.left {
+		left: 20px;
+	}
+	.joystick.right {
+		right: 20px;
+	}
+
 }
