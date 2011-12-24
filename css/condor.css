@@ -11,6 +11,7 @@ article {
 
 #condor {
 	background: #f1f1f1;
+	position: relative;
 }
 
 @media(max-width:1024px) {
