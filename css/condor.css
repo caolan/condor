@@ -2,11 +2,20 @@ body, html {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-family: Arial;
+	font-size: 25px;
 }
 
 article {
 	position: relative;
 	margin: 0 auto;
+}
+
+.hud {
+	color: rgba(0,0,0,0.8);
+	position: absolute;
+	top: 10px;
+	left: 10px;
 }
 
 #condor {
